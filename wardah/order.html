@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - Wardah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Wardah</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="flowers.html">Flowers</a>
+      <a href="meanings.html">Flower Meanings</a>
+      <a href="about.html">About Us</a>
+      <a href="order.html" class="current">Order</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <h2>Place an Order</h2>
+    <p>Fill in the form below and we will call you to confirm.</p>
+
+    <form action="#" method="post">
+
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="flower">Flower</label>
+      <select id="flower" name="flower">
+        <option>First Blush ($38)</option>
+        <option>Grandma's Garden ($42)</option>
+        <option>Quiet Lavender ($34)</option>
+        <option>Morning Sun ($32)</option>
+        <option>Fresh Start ($40)</option>
+        <option>I'm Sorry ($45)</option>
+        <option>Not sure, choose for me</option>
+      </select>
+
+      <label for="date">Delivery date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="message">Message for the card</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit" class="button">Send order</button>
+
+    </form>
+
+    <h2>Contact</h2>
+    <p>Address: 7 Garden Street, Cairo, Egypt</p>
+    <p>Phone: +20 100 000 0000</p>
+    <p>Email: hello@wardah.example</p>
+    <p>Open every day from 9 AM to 9 PM</p>
+
+  </main>
+
+  <footer>
+    <p>Wardah Flower Shop | 7 Garden Street, Cairo | +20 100 000 0000</p>
+  </footer>
+
+</body>
+</html>
